@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		10C32532AA84E45AC5BA9EB7 /* Pods_Pass_granar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C867E322DA74E5E1DC094921 /* Pods_Pass_granar.framework */; };
-		496DC9A620B492D700F83EDF /* MyPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DC9A520B492D700F83EDF /* MyPin.swift */; };
 		497E054A209324B50050A7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E0549209324B50050A7FC /* AppDelegate.swift */; };
 		497E054C209324B50050A7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E054B209324B50050A7FC /* ViewController.swift */; };
 		497E054F209324B50050A7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497E054D209324B50050A7FC /* Main.storyboard */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		496DC9A520B492D700F83EDF /* MyPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPin.swift; sourceTree = "<group>"; };
 		497E0546209324B50050A7FC /* Pass granar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pass granar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		497E0549209324B50050A7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		497E054B209324B50050A7FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 				497E0552209324B60050A7FC /* LaunchScreen.storyboard */,
 				497E0555209324B60050A7FC /* Info.plist */,
 				49C0B2A0209CCFFF00A7698D /* Images.xcassets */,
-				496DC9A520B492D700F83EDF /* MyPin.swift */,
 			);
 			path = "Pass granar";
 			sourceTree = "<group>";
@@ -222,7 +219,6 @@
 			files = (
 				497E054C209324B50050A7FC /* ViewController.swift in Sources */,
 				497E054A209324B50050A7FC /* AppDelegate.swift in Sources */,
-				496DC9A620B492D700F83EDF /* MyPin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

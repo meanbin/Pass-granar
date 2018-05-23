@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C32532AA84E45AC5BA9EB7 /* Pods_Pass_granar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C867E322DA74E5E1DC094921 /* Pods_Pass_granar.framework */; };
+		496DC9A620B492D700F83EDF /* MyPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DC9A520B492D700F83EDF /* MyPin.swift */; };
+		497E054A209324B50050A7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E0549209324B50050A7FC /* AppDelegate.swift */; };
+		497E054C209324B50050A7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E054B209324B50050A7FC /* ViewController.swift */; };
+		497E054F209324B50050A7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497E054D209324B50050A7FC /* Main.storyboard */; };
+		497E0551209324B60050A7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497E0550209324B60050A7FC /* Assets.xcassets */; };
+		497E0554209324B60050A7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497E0552209324B60050A7FC /* LaunchScreen.storyboard */; };
+		49C0B2A1209CCFFF00A7698D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C0B2A0209CCFFF00A7698D /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		496DC9A520B492D700F83EDF /* MyPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPin.swift; sourceTree = "<group>"; };
+		497E0546209324B50050A7FC /* Pass granar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pass granar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497E0549209324B50050A7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497E054B209324B50050A7FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497E054E209324B50050A7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497E0550209324B60050A7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497E0553209324B60050A7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		497E0555209324B60050A7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C0B2A0209CCFFF00A7698D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		593E9F622BAEB33BC161D6C8 /* Pods-Pass granar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass granar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pass granar/Pods-Pass granar.debug.xcconfig"; sourceTree = "<group>"; };
+		80A3B703F3427F36AEF63563 /* Pods-Pass granar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pass granar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pass granar/Pods-Pass granar.release.xcconfig"; sourceTree = "<group>"; };
+		C867E322DA74E5E1DC094921 /* Pods_Pass_granar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pass_granar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497E0543209324B50050A7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C32532AA84E45AC5BA9EB7 /* Pods_Pass_granar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497E053D209324B50050A7FC = {
+			isa = PBXGroup;
+			children = (
+				497E0548209324B50050A7FC /* Pass granar */,
+				497E0547209324B50050A7FC /* Products */,
+				8017CE80AE3BF9510890BDAC /* Pods */,
+				9758A9247E1CB4DB15EF7556 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		497E0547209324B50050A7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497E0546209324B50050A7FC /* Pass granar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497E0548209324B50050A7FC /* Pass granar */ = {
+			isa = PBXGroup;
+			children = (
+				497E0549209324B50050A7FC /* AppDelegate.swift */,
+				497E054B209324B50050A7FC /* ViewController.swift */,
+				497E054D209324B50050A7FC /* Main.storyboard */,
+				497E0550209324B60050A7FC /* Assets.xcassets */,
+				497E0552209324B60050A7FC /* LaunchScreen.storyboard */,
+				497E0555209324B60050A7FC /* Info.plist */,
+				49C0B2A0209CCFFF00A7698D /* Images.xcassets */,
+				496DC9A520B492D700F83EDF /* MyPin.swift */,
+			);
+			path = "Pass granar";
+			sourceTree = "<group>";
+		};
+		8017CE80AE3BF9510890BDAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				593E9F622BAEB33BC161D6C8 /* Pods-Pass granar.debug.xcconfig */,
+				80A3B703F3427F36AEF63563 /* Pods-Pass granar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9758A9247E1CB4DB15EF7556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C867E322DA74E5E1DC094921 /* Pods_Pass_granar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497E0545209324B50050A7FC /* Pass granar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497E0558209324B60050A7FC /* Build configuration list for PBXNativeTarget "Pass granar" */;
+			buildPhases = (
+				57C21C7209E28F6B9419A1BD /* [CP] Check Pods Manifest.lock */,
+				497E0542209324B50050A7FC /* Sources */,
+				497E0543209324B50050A7FC /* Frameworks */,
+				497E0544209324B50050A7FC /* Resources */,
+				4DD21A71FDD75843F99A3AED /* [CP] Embed Pods Frameworks */,
+				290004749BC033F586585F2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pass granar";
+			productName = "Pass granar";
+			productReference = 497E0546209324B50050A7FC /* Pass granar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497E053E209324B50050A7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Robin Wahlgren";
+				TargetAttributes = {
+					497E0545209324B50050A7FC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 497E0541209324B50050A7FC /* Build configuration list for PBXProject "Pass granar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497E053D209324B50050A7FC;
+			productRefGroup = 497E0547209324B50050A7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497E0545209324B50050A7FC /* Pass granar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497E0544209324B50050A7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497E0554209324B60050A7FC /* LaunchScreen.storyboard in Resources */,
+				49C0B2A1209CCFFF00A7698D /* Images.xcassets in Resources */,
+				497E0551209324B60050A7FC /* Assets.xcassets in Resources */,
+				497E054F209324B50050A7FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		290004749BC033F586585F2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass granar/Pods-Pass granar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD21A71FDD75843F99A3AED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pass granar/Pods-Pass granar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C21C7209E28F6B9419A1BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pass granar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497E0542209324B50050A7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497E054C209324B50050A7FC /* ViewController.swift in Sources */,
+				497E054A209324B50050A7FC /* AppDelegate.swift in Sources */,
+				496DC9A620B492D700F83EDF /* MyPin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		497E054D209324B50050A7FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497E054E209324B50050A7FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		497E0552209324B60050A7FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497E0553209324B60050A7FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497E0556209324B60050A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		497E0557209324B60050A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497E0559209324B60050A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593E9F622BAEB33BC161D6C8 /* Pods-Pass granar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NER2XK76B;
+				INFOPLIST_FILE = "Pass granar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.wahlgrenrobin.Pass-Grannar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497E055A209324B60050A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A3B703F3427F36AEF63563 /* Pods-Pass granar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NER2XK76B;
+				INFOPLIST_FILE = "Pass granar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.wahlgrenrobin.Pass-Grannar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497E0541209324B50050A7FC /* Build configuration list for PBXProject "Pass granar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497E0556209324B60050A7FC /* Debug */,
+				497E0557209324B60050A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497E0558209324B60050A7FC /* Build configuration list for PBXNativeTarget "Pass granar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497E0559209324B60050A7FC /* Debug */,
+				497E055A209324B60050A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497E053E209324B50050A7FC /* Project object */;
+}

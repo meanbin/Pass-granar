@@ -1,0 +1,6 @@
+framework module Pods_Pass_granar {
+  umbrella header "Pods-Pass granar-umbrella.h"
+
+  export *
+  module * { export * }
+}
